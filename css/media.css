@@ -1,0 +1,67 @@
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}
+
+
+
+
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .blog .container .col .card .card-footer div a{
+        flex-basis: 70%;
+    }
+    .blog .container .col .card .card-footer div small{
+        flex-basis: 30%;
+    justify-content: center;
+    align-items: center;
+}
+    }
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    .about .container{
+        flex-direction: column;
+    }
+    .about .container .box-2 div{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+ }
+
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    header .box-t h1 {
+        font-size: 6vw  !important;
+      }
+      header .box-t p {
+        font-size: 6vw !important;
+      }
+    .dropdown-menu.show{
+        background: radial-gradient(#00a8f9, transparent);
+        box-shadow: 0 0 10px;
+    }
+    nav .container ul .dropdown .dropdown-menu .DeepDrop {
+        position: unset !important;
+        transform: translateX(0%) !important;
+        box-shadow: 0 0 10px !important;
+    }
+}
+
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { }
+
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {  }
